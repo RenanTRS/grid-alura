@@ -1,14 +1,26 @@
 .app {
     background: #f1f1f1;
-    display: grid;  
+    display: grid; /*Ativa o grid*/ 
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto; /* Largura da coluna */
+    grid-template-rows: 50px 100vh auto; /* altura da linha */
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
+    background-color: #00cc99;
+    grid-area: cabecalho;
 }
  
 .conteudo {
+    background-color: #ff8080;
+    grid-area: conteudo;
 }
 
 .rodape {
+    background-color: #0099ff;
+    grid-area: rodape;
 }
