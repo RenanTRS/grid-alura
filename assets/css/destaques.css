@@ -1,0 +1,6 @@
+.destaques{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; /*Definindo tamanho também defino a quantidade*/
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px); /*Toda a área da tela - 50px do header*/
+}
