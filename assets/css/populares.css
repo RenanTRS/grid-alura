@@ -1,5 +1,5 @@
 .populares{
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 .populares__conteudo{
     display: flex;
@@ -17,6 +17,9 @@
     grid-template-rows: 173px auto;
     margin-right: 1rem;
     width: calc(20% - 1rem);
+}
+.populares__card:last-child{
+    margin-right: 0;
 }
 .populares__card___imagem{
     grid-area: card-imagem;
@@ -57,4 +60,11 @@
 }
 .populares__cabecalho{
     display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dcdcdc;
+}
+.populares__botao{
+    background: transparent;
+    border: none;
+    color: #333333;
 }
