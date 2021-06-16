@@ -55,3 +55,6 @@
 .populares__icone{
     margin-right: .25rem;
 }
+.populares__cabecalho{
+    display:flex;
+}
