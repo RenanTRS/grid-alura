@@ -6,7 +6,7 @@
         "conteudo"
         "rodape";
     grid-template-columns: auto; /* Largura da coluna */
-    grid-template-rows: 50px 100vh auto; /* altura da linha */
+    grid-template-rows: 50px auto auto; /* altura da linha */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,8 +19,14 @@
  
 .conteudo {
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
     grid-area: rodape;
+    color: #333333;
+    padding: 1rem;
+    text-align: center;
+    background: #fdfdfd;
+    font-size: .8rem;
 }
