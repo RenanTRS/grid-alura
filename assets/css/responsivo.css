@@ -1,4 +1,5 @@
 @media  screen and (min-width: 0) {
+    /*--Destaques--*/
     .destaques__principal, .destaques__categorias{
         /*Fortnite e lista de links categorias*/
         grid-column: 1/5;   
@@ -31,9 +32,20 @@
         grid-column: none;
         grid-row: none;
     }
+    /*--Populares--*/
+    .populares__conteudo{
+        flex-direction: column;
+    }
+    .populares__card{
+        width: 100%;
+        margin-bottom: 3rem;
+        margin-right: 0;
+        grid-template-rows: 150px auto;
+    }
 }
 
 @media screen and (min-width: 768px){
+    /*--Destaques--*/
     .destaques__principal{
         /*Fortnite*/
         grid-column: 1 / 4;
@@ -66,10 +78,29 @@
         /*Lista e links categorias*/
         grid-column: 1 / 3;
     }
+    /*--Populares--*/
+    .populares__conteudo{
+        flex-direction: row;
+    }
+    .populares__card{
+        grid-template-rows: 173px auto;
+        margin-right: 1rem;
+        width: calc(50% - 1rem);
+    }
 }
 @media screen and (min-width: 992px) {
-    
+    /*Populares*/
+    .populares__card{
+        width: calc(33.33% - 1rem);
+    }
 }
 @media screen and (min-width: 1200px) {
-    
+    /*Populares*/
+    .populares__conteudo{
+        justify-content: space-evenly;
+    }
+    .populares__card{
+        margin-bottom: 0;
+        width: calc(20% - 1rem);
+    }
 }
