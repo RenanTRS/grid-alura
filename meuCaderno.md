@@ -36,4 +36,11 @@ grid-template-areas:
 ```grid-row : 2 / 2;``` Começa na linha 2 e termina na linha 2.  
 
 ## Estilizando os destaques:  
-```grid-gap: 0.2rem;``` Cria um espaçamento entre linhas e colunas.
+```grid-gap: 0.2rem;``` Cria um espaçamento entre linhas e colunas.  
+
+# Aula03 - Estilizando a seção de populares
+## A seção de populares:  
+- Apenas foi feito os ajustes dos itens
+
+# Aula05 - Deixando o site responsivo
+- ```display:none;``` Deixa o conteúdo escondido.  
